@@ -30,7 +30,7 @@ int main(int argc, const char* argv[]) {
 
   int i;
   int pos[9] = {};
-  const float ratio = 0.6;
+  const float ratio = 0.74;
   for(i=0; i<matches.size(); i++) {
     if (matches[i][0].distance < ratio * matches[i][1].distance) {
       good.push_back(matches[i][0]);

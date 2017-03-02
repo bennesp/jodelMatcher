@@ -8,3 +8,6 @@ jodelMatcher.o:
 
 jodelMatcher: jodelMatcher.o
 	$(CXX) -o jodelMatcher jodelMatcher.o $(CFLAGS)
+
+clean:
+	rm jodelMatcher jodelMatcher.o
